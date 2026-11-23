@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#212121">
+  <meta name="description" content="GroundSurf Studio: a free, offline-first geological workbench for real boreholes, manual correlation, conceptual 3D surfaces and careful interpretation.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GroundSurf Studio — Geological modelling, made approachable">
+  <meta property="og:description" content="A lightweight, offline-first geological interpretation workbench. Open in your browser or download one HTML file.">
+  <title>GroundSurf Studio — Geological modelling, made approachable</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="shell nav-shell">
+      <a class="brand" href="./" aria-label="GroundSurf Studio home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 38 38" width="38" height="38"><path d="M4 11 19 6l15 5v15l-15 6L4 26z" fill="#343a3d" stroke="#879399" stroke-width=".8"/><path d="m6 13 13 6 13-6" stroke="#d7c0a0" stroke-width="2" fill="none"/><path d="m6 21 13 5 13-5" stroke="#99b4c0" stroke-width="2" fill="none"/></svg></span>
+        <span class="brand-name">GroundSurf <span>Studio</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#capabilities">Capabilities</a>
+        <a href="#workflow">How it works</a>
+        <a href="guide/">Guide</a>
+        <a class="nav-launch" href="app/">Open Studio <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PUBLIC BETA · 0.7.5 · EXPERIMENTAL</div>
+        <h1 id="hero-title">A clearer way to <em>see beneath</em> the surface.</h1>
+        <p class="hero-lead">Import boreholes. Draw correlations. Explore 3D geological interpretations. Keep the original evidence separate from what you infer.</p>
+        <p class="hero-aside">A small, local-first workspace for geologists. No account. No installer. No modelling server.</p>
+        <div class="action-row">
+          <a class="button button-primary" href="app/">Open Studio <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" download="GroundSurf-Studio-0.7.5-beta.html" href="download/GroundSurf-Studio-0.7.5-beta.html">Download offline <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="micro">Free public beta · 1.16 MB HTML · Firefox &amp; Chromium tested on Ubuntu</p>
+      </div>
+      <div class="hero-visual" aria-label="GroundSurf Studio preview">
+        <div class="visual-window">
+          <div class="window-bar"><span class="traffic-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>GroundSurf Studio · Geological interpretation</span><span class="window-state">OFFLINE</span></div>
+          <img src="assets/hero-surfaces.png" alt="Screenshot of GroundSurf Studio displaying separate conceptual geological surfaces, geometry warnings and thickness analysis in its dark interface." width="1570" height="1000" loading="eager" decoding="async">
+        </div>
+        <p class="visual-caption">Illustrative synthetic geological interpretations — not surveyed site geology.</p>
+      </div>
+    </section>
+
+    <div class="shell separator" role="presentation"></div>
+    <section class="principle shell" aria-label="Studio principle">
+      <span class="quote-symbol" aria-hidden="true">“</span>
+      <p><strong>What we observed</strong> and <strong>what we interpret</strong> should never be confused.</p>
+      <span class="principle-aside">The principle behind GroundSurf Studio</span>
+    </section>
+
+    <section class="section shell" id="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading"><p class="overline">THE WORKBENCH</p><h2 id="capabilities-title">The essential tools, without the noise.</h2><p>Everything happens in your browser, using local data and carefully labelled interpretations.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-index">01 / Evidence</span><h3>Real borehole logs</h3><p>Import logged intervals, inspect depth and lithology, or explore the built-in example of 14 real Stockholm SGU logs (CC0).</p></article>
+        <article class="feature"><span class="feature-index">02 / Interpretation</span><h3>Quick mouse correlations</h3><p>Connect exact logged contacts in sections. Use horizontal zoom, metric vertical exaggeration, or clearly marked schematic spacing.</p></article>
+        <article class="feature"><span class="feature-index">03 / Geometry</span><h3>Conceptual 3D surfaces</h3><p>Review multiple manually proposed surfaces together. See their limits and unsupported connections rather than filling gaps silently.</p></article>
+        <article class="feature"><span class="feature-index">04 / Review</span><h3>Quality &amp; thickness checks</h3><p>Inspect geometrical crossings, intended upper/lower order and conditional thickness within strictly valid overlapping areas.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-split shell" id="workflow" aria-labelledby="workflow-title">
+      <div class="split-copy">
+        <p class="overline">A NATURAL WORKFLOW</p>
+        <h2 id="workflow-title">From observations to an interpretation you can examine.</h2>
+        <div class="step"><span>01</span><div><h3>Bring your logs</h3><p>Open a local CSV or try the real Swedish demonstration data. The source records remain yours.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Connect what you recognise</h3><p>Choose contacts with the mouse; preserve which borehole and logged boundary supports each proposal.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Explore, question, revise</h3><p>View provisional surfaces together, check geometry and save a complete project ZIP. Nothing is approved automatically.</p></div></div>
+        <div class="step"><span>04</span><div><h3>Take it offline</h3><p>Download the same application as one HTML file. Open it locally and continue without internet access.</p></div></div>
+      </div>
+      <figure class="workflow-figure">
+        <img src="assets/section-preview.png" alt="Example borehole correlation section with evenly spaced synthetic boreholes and the clear schematic, not-to-scale warning." loading="lazy" width="1000" height="540">
+        <figcaption>Equal spacing makes overlapping logs readable. This is a schematic view, not a true-distance section.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section assurance shell" aria-labelledby="assurance-title">
+      <div class="assurance-copy"><p class="overline">LOCAL BY DESIGN</p><h2 id="assurance-title">Your model stays in your hands.</h2><p>The Studio beta runs its modelling calculations in your browser. It does not require an account, an online model database or uploading your borehole files to a GroundSurf server.</p><a class="inline-link" href="privacy/">Read about privacy &amp; local files <span aria-hidden="true">→</span></a></div>
+      <div class="assurance-points">
+        <div><strong>01</strong><span>One portable HTML file</span></div>
+        <div><strong>02</strong><span>Offline after download</span></div>
+        <div><strong>03</strong><span>Original logs preserved</span></div>
+        <div><strong>04</strong><span>Explicitly provisional geology</span></div>
+      </div>
+    </section>
+
+    <section class="beta-note shell" aria-labelledby="beta-title">
+      <div><p class="overline">A PUBLIC EXPERIMENT</p><h2 id="beta-title">Useful already. Still a beta.</h2><p>Studio is a conceptual geological interpretation tool, not certified geological modelling software. Derived surfaces, thickness and volume are hypothetical until independently reviewed. Browser tests have passed on Ubuntu; Windows and macOS need further testing.</p></div>
+      <div class="beta-links"><a class="button button-secondary" href="guide/">Get started <span aria-hidden="true">→</span></a><a class="inline-link" href="https://github.com/wtzet-eng/groundsurf-studio-web/issues" target="_blank" rel="noopener noreferrer">Suggest an improvement ↗</a></div>
+    </section>
+
+    <section class="final-cta shell"><p class="overline">GROUND SURF · OPEN EXPLORATION</p><h2>See the ground a little more clearly.</h2><div class="action-row action-row-center"><a class="button button-primary" href="app/">Open Studio <span aria-hidden="true">↗</span></a><a class="button button-secondary" download="GroundSurf-Studio-0.7.5-beta.html" href="download/GroundSurf-Studio-0.7.5-beta.html">Download 0.7.5 beta <span aria-hidden="true">↓</span></a></div></section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-content"><span>© <span id="year">2026</span> GroundSurf · Made for geological curiosity and careful interpretation.</span><nav aria-label="Footer navigation"><a href="guide/">Guide</a><a href="privacy/">Privacy</a><a href="https://groundsurf.net" target="_blank" rel="noopener noreferrer">Site Intelligence ↗</a><a href="https://github.com/wtzet-eng/groundsurf-studio-web" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav></div></footer>
+</body>
+</html>
