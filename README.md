@@ -4,6 +4,11 @@ This repository is the **public static distribution site** for GroundSurf Studio
 
 The development repository `wtzet-eng/GroundSurf-Studio` remains private while we review the project's source code and licensing for eventual open-source distribution. This repository provides the **public beta's prebuilt portable HTML**, a static information site, screenshots, instructions, and an issue tracker. Public distribution of a compiled application does **not** mean the development source has been published under an open-source licence.
 
+## Public release
+
+- Release notes: [0.7.5-beta.1](https://github.com/wtzet-eng/groundsurf-studio-web/releases/tag/v0.7.5-beta.1).
+- The checksum for the standalone download is in `download/SHA256SUMS.txt`.
+
 ## What is published
 
 - `/` — light, accessible landing page in the same dark palette as Studio.

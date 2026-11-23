@@ -32,7 +32,7 @@ img{max-width:100%;height:auto;display:block}
 .button span{font-size:1.11em}.button:hover{transform:translateY(-2px);box-shadow:0 5px 18px #0002}
 .button-primary{background:var(--sand);color:#1e2225}.button-primary:hover{background:#f1ddbd}
 .button-secondary{background:#ffffff08;color:#e4e9ed;border-color:#696b6a}.button-secondary:hover{border-color:#c7b9a1;background:#ffffff0e}
-.micro{font-size:.78rem;color:#9199a0;margin-top:20px;letter-spacing:.005em}
+.micro{font-size:.78rem;color:#9199a0;margin-top:20px;letter-spacing:.005em}.inline-release{color:#d8c5a6;text-decoration:underline;text-underline-offset:2px}.inline-release:hover{color:#f5dfbc}
 .hero-visual{min-width:0;position:relative}.hero-visual:before{content:"";position:absolute;inset:14% 10% 5%;background:#a4c0bf19;filter:blur(75px);pointer-events:none}
 .visual-window{background:#17191a;position:relative;border:1px solid #4c5053;border-radius:11px;box-shadow:var(--shadow);overflow:hidden;transform:perspective(1600px) rotateY(-3deg) rotateX(1deg)}
 .window-bar{height:43px;background:#2b2d30;border-bottom:1px solid #44464a;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 14px;font-size:.68rem;color:#c8cdd1;letter-spacing:.025em}
