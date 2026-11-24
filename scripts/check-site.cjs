@@ -12,7 +12,7 @@ const assert=require('node:assert/strict');
 const crypto=require('node:crypto');
 const fs=require('node:fs');
 const {chromium}=require('playwright-core');
-const EXPECTED_SHA='ae0208957e6c548a4c96446b4abedaaeb3ecc2dca12380bea53b1352170723e1';
+const EXPECTED_SHA='b5b23bc3938a661d3f401176d9c97c7380b9c64532a577fb0bf919cd966c3a57';
 (async()=>{
  const base=(process.env.GROUNDSURF_SITE_BASE||'http://127.0.0.1:4183/').replace(/\/?$/,'/');
  const browser=await chromium.launch({
@@ -43,23 +43,23 @@ const EXPECTED_SHA='ae0208957e6c548a4c96446b4abedaaeb3ecc2dca12380bea53b13521707
   console.log('GETTING_STARTED_AND_PRIVACY_AND_LOCAL_ASSETS_LOAD_PASS');
   // The two URLs must preserve the audited, exact offline bundle bytes.
   const [online,offline]=await Promise.all([
-    page.request.get(base+'app/'),
-    page.request.get(base+'download/GroundSurf-Studio-0.7.5-beta.html'),
+    page.request.get(base+'preview/'),
+    page.request.get(base+'download/GroundSurf-Studio-0.9.5-preview1.html'),
   ]);
   assert.equal(online.status(),200);
   assert.equal(offline.status(),200);
   for(const [name,response] of [['launched',online],['download',offline]]){
    const bytes=await response.body();
    const hash=crypto.createHash('sha256').update(bytes).digest('hex');
-   assert.equal(bytes.byteLength,1164341);
+   assert.equal(bytes.byteLength,1333702);
    assert.equal(hash,EXPECTED_SHA,name+' beta bundle altered');
    assert.match(bytes.toString('utf8',0,800),/connect-src 'none'/);
   }
   console.log('PUBLIC_LAUNCH_AND_OFFLINE_DOWNLOAD_IDENTICAL_AUDITED_BUNDLE_PASS');
-  await page.goto(base+'app/',{waitUntil:'load'});
-  await page.getByRole('button',{name:'Explore real Stockholm logs · CC0'}).waitFor();
-  await page.getByRole('button',{name:'Explore real Stockholm logs · CC0'}).click();
-  await page.getByRole('region',{name:'Observed borehole interval 3D workspace'}).locator('canvas').waitFor();
+  await page.goto(base+'preview/',{waitUntil:'load'});
+  await page.getByRole('button',{name:'Try Stockholm real logs'}).waitFor();
+  await page.getByRole('button',{name:'Try Stockholm real logs'}).click();
+  await page.getByLabel('Observed borehole interval 3D workspace').locator('canvas').waitFor();
   assert.match(await page.locator('body').innerText(),/14 observed|14 boreholes|14 source boreholes|Stockholm/i);
   console.log('PUBLIC_HOSTED_STUDIO_ACTUALLY_RUNS_AND_LOADS_REAL_STOCKHOLM_LOGS_PASS');
   const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});

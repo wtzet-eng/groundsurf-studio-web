@@ -1,5 +1,9 @@
 # GroundSurf Studio — public beta website
 
+## Current experimental preview: 0.9.5-preview.1
+
+The current landing page links to /preview/ and /download/GroundSurf-Studio-0.9.5-preview1.html (identical audited HTML, SHA-256 b5b23bc3938a661d3f401176d9c97c7380b9c64532a577fb0bf919cd966c3a57, 1,333,702 bytes). The earlier /app/ and 0.7.5 download remain unchanged. The optional Ubuntu desktop package is distributed through the 0.9.5 release, not GitHub Pages. Native workers are separate and not bundled. See the guide and release limitations. The following sections describe the earlier 0.7.5 release.
+
 This repository is the **public static distribution site** for GroundSurf Studio **0.7.5 beta**, hosted through GitHub Pages.
 
 The development repository `wtzet-eng/GroundSurf-Studio` remains private while we review the project's source code and licensing for eventual open-source distribution. This repository provides the **public beta's prebuilt portable HTML**, a static information site, screenshots, instructions, and an issue tracker. Public distribution of a compiled application does **not** mean the development source has been published under an open-source licence.

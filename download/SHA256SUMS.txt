@@ -1,1 +1,2 @@
 ae0208957e6c548a4c96446b4abedaaeb3ecc2dca12380bea53b1352170723e1  GroundSurf-Studio-0.7.5-beta.html
+b5b23bc3938a661d3f401176d9c97c7380b9c64532a577fb0bf919cd966c3a57  GroundSurf-Studio-0.9.5-preview1.html
