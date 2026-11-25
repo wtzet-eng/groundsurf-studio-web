@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Getting started | GroundSurf Studio</title>
+  <link rel="stylesheet" href="../assets/trial.css">
+</head>
+<body>
+  <header class="wrap top"><a class="brand" href="../">GroundSurf Studio</a></header>
+  <main class="wrap article">
+    <h1>Getting started</h1>
+    <ol>
+      <li>Open Studio or download the single HTML file and open it locally. The offline file needs no local server.</li>
+      <li>From Projects, open a synthetic project ZIP. For your own work, use the borehole CSV importer and confirm the coordinate system, units and vertical datum from your source.</li>
+      <li>Open Named horizons in the Explorer. Choose the logged top or base, pick contacts, review conflicts, and save the interpretation.</li>
+      <li>Generate a surface definition only after reviewing interpolation assumptions. Rebuild saved horizons in 3D. Use Save complete project to keep the source observations and interpretations together.</li>
+    </ol>
+    <h2>What the project ZIP saves</h2>
+    <p>Borehole sources, section images, named horizons, reviewed ties, surface definitions and supported time–depth records. Rebuild surfaces from their definitions. Original SEG-Y stays separate and can be relinked against its stored file identity. Export supported property ensembles and geometry uncertainty results separately. Grid meshes and the full numerical workspace require separate handling.</p>
+    <h2>Scientific scope</h2>
+    <p>Time–depth conversion uses one user-defined velocity and rejects picks outside the declared coverage. Geometry uncertainty is a bounded preview. Consult the methods before interpreting either result.</p>
+    <p><a href="CONSOLIDATION-0.10.1.md">Named horizon methods</a> · <a href="TIME-DEPTH-0.10.1.md">Time–depth methods</a> · <a href="HORIZON-GEOMETRY-0.10.0.md">Geometry uncertainty methods</a></p>
+    <h2>Desktop availability</h2>
+    <p>The browser is the verified trial entry point. Native Windows and Ubuntu downloads will appear when their release checks are complete. Optional native geostatistics and ParaView run separately on supported desktop setups.</p>
+    <p><a href="RELEASE-NOTES.txt">Release notes</a> · <a href="LICENSE-GROUNDSURF.txt">Software licence</a> · <a href="THIRD-PARTY-NOTICES.txt">Third-party notices</a></p>
+  </main>
+</body>
+</html>

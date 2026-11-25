@@ -1,0 +1,44 @@
+:root {
+  color-scheme: dark;
+  font: 16px/1.6 system-ui, sans-serif;
+  background: #212121;
+  color: #ededeb;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #e6d0a7; text-underline-offset: .2em; }
+a:focus-visible { outline: 2px solid #efd398; outline-offset: 4px; }
+.wrap { width: min(1152px, calc(100% - 2.5rem)); margin-inline: auto; }
+.skip { position: absolute; left: 1rem; top: -5rem; }
+.skip:focus { top: 1rem; }
+.top, nav, footer, .actions, .brand { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.top { justify-content: space-between; padding: 1.25rem 0; border-bottom: 1px solid #494949; }
+.brand { color: #ededeb; text-decoration: none; font-weight: 600; }
+nav a, footer a { font-size: .92rem; }
+.hero { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; gap: clamp(1.5rem, 4vw, 4rem); padding: clamp(2.5rem, 7vw, 6rem) 0; }
+h1, h2 { line-height: 1.15; font-weight: 650; }
+h1 { font-size: clamp(2.35rem, 5.5vw, 4.8rem); letter-spacing: -.05em; margin: .2em 0; }
+h2 { font-size: clamp(1.4rem, 2.7vw, 2rem); margin-block: 0 .65em; }
+.lede { color: #e8d2ad; font-size: clamp(1.14rem, 2vw, 1.4rem); }
+.release, .quiet, figcaption { color: #c6c5c1; font-size: .89rem; }
+.actions { margin-block: 1.5rem 1rem; }
+.button { display: inline-block; padding: .65rem 1rem; border: 1px solid #9e9789; border-radius: .35rem; color: #f0efed; text-decoration: none; }
+.button:hover { background: #323331; }
+.primary { background: #e4c898; color: #25221d; border-color: #e4c898; font-weight: 650; }
+.primary:hover { background: #f0dbb6; }
+figure { margin: 0; min-width: 0; }
+figure img { display: block; width: 100%; height: auto; border: 1px solid #4d4d4d; border-radius: .45rem; }
+figcaption { padding: .55rem 0; }
+.band { border-top: 1px solid #494949; padding: 2.2rem 0; display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.5rem; }
+.band p { margin-bottom: 0; }
+.links { margin-block: .15rem; padding-left: 1.25rem; }
+.gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; padding-bottom: 2rem; }
+.notice { color: #c6c5c1; max-width: 76ch; margin-bottom: 2rem; }
+footer { padding: 1.25rem 0; border-top: 1px solid #494949; }
+.article { max-width: 74ch; padding-block: 2.5rem; }
+.article h2 { margin-top: 1.5rem; }
+.article li { margin: .6rem 0; }
+@media (max-width: 760px) {
+  .hero, .band, .gallery { grid-template-columns: 1fr; }
+  .top { gap: .5rem 1rem; }
+}
