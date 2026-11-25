@@ -1,7 +1,7 @@
 {
   "format": "groundsurf-release-v1",
   "version": "0.10.1-trial.1",
-  "commit": "0902b06edf5d8b48f10c7c85788d8cbc61969505",
+  "commit": "041c0be11cb088ed00a4726bb3598d655ea96378",
   "artifacts": [
     {
       "name": "CONSOLIDATION-0.10.1.md",
@@ -15,8 +15,8 @@
     },
     {
       "name": "GroundSurf-Studio-0.10.1-trial.1-PORTABLE-OFFLINE.html",
-      "bytes": 1452545,
-      "sha256": "4f3b1129408cc9a75f6596bd9d32ee6cdc5b3b1e48543a6086ec6e3ec848c1cc"
+      "bytes": 1452707,
+      "sha256": "5e8060b51122ef3be5e53ad122eee95f44f8184493272489ce204354346e56e9"
     },
     {
       "name": "HORIZON-GEOMETRY-0.10.0.md",
@@ -30,8 +30,8 @@
     },
     {
       "name": "LICENSE-GROUNDSURF.txt",
-      "bytes": 1556,
-      "sha256": "afbea719bb39d03bfe379ef70e127657248b431086c70e0879240cf311681b81"
+      "bytes": 1718,
+      "sha256": "aaf630d2c3924992517945643f3c81b39d4b86021aeb718271267534e3ee2693"
     },
     {
       "name": "Named-horizon.png",
@@ -70,8 +70,8 @@
     },
     {
       "name": "guide.html",
-      "bytes": 2817,
-      "sha256": "88c034076424873f58fc7d1e940732849ca6bf43e1a625e6213e9c5e0b831f4b"
+      "bytes": 2844,
+      "sha256": "3350f37b843780956fed0670d1d88a7cb8d4f2e650886add95d513725a9bd65b"
     }
   ]
 }

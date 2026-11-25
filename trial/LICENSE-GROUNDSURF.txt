@@ -9,8 +9,10 @@ distribution of this Public Trial without charge for personal, educational,
 research and commercial professional purposes. Installation and ordinary
 backup copies for those purposes are permitted during that period.
 
-GroundSurf reserves the right to determine licensing conditions annually for
-subsequent releases. This notice applies to the initial Public Trial.
+GroundSurf intends to renew the free licence annually. Its long-term objective
+is to keep GroundSurf Studio freely accessible to the geological, scientific
+and professional communities. Future renewals and licensing conditions remain
+subject to annual review. This notice applies to the initial Public Trial.
 
 The software has no technical expiry mechanism, mandatory registration,
 online activation or telemetry.
