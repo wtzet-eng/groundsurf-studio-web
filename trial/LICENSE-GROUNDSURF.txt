@@ -1,0 +1,31 @@
+GroundSurf Studio — free proprietary software notice
+Initial Public Trial (0.10.1) · 25 November 2026
+
+Copyright in the original GroundSurf-specific software and documentation,
+to the extent protected by applicable law, is reserved by its rights holders.
+
+Through 31 December 2027 inclusive, permission is granted to use an authentic
+distribution of this Public Trial without charge for personal, educational,
+research and commercial professional purposes. Installation and ordinary
+backup copies for those purposes are permitted during that period.
+
+GroundSurf reserves the right to determine licensing conditions annually for
+subsequent releases. This notice applies to the initial Public Trial.
+
+The software has no technical expiry mechanism, mandatory registration,
+online activation or telemetry.
+
+Users retain their rights in their own geological data and results.
+
+No additional permission is granted to reproduce for public redistribution,
+sell, rebrand or distribute modified versions of GroundSurf-specific code
+or documentation without the relevant rights holder's permission.
+
+Third-party licences and mandatory statutory rights remain unaffected,
+including applicable interoperability, observation, study, testing and
+backup rights. Scientific ideas, methods and facts are outside this claim
+of copyright in the GroundSurf-specific implementation.
+
+GroundSurf Studio is experimental software, provided as is, without
+warranties to the extent permitted by law. Do not rely on its models as a
+substitute for independent professional review.

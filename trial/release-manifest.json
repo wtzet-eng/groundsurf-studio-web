@@ -1,0 +1,77 @@
+{
+  "format": "groundsurf-release-v1",
+  "version": "0.10.1-trial.1",
+  "commit": "0902b06edf5d8b48f10c7c85788d8cbc61969505",
+  "artifacts": [
+    {
+      "name": "CONSOLIDATION-0.10.1.md",
+      "bytes": 4354,
+      "sha256": "e5601b2e953cc1e58d4f5c29f6c28d12d6ddd10675f29ab8d06977909b12418f"
+    },
+    {
+      "name": "DATA-NOTICES.txt",
+      "bytes": 329,
+      "sha256": "f7a18d2245bdc0686b103f2c7c43b3c5d576909b08b5a1fe4a649e52b06c7ab0"
+    },
+    {
+      "name": "GroundSurf-Studio-0.10.1-trial.1-PORTABLE-OFFLINE.html",
+      "bytes": 1452545,
+      "sha256": "4f3b1129408cc9a75f6596bd9d32ee6cdc5b3b1e48543a6086ec6e3ec848c1cc"
+    },
+    {
+      "name": "HORIZON-GEOMETRY-0.10.0.md",
+      "bytes": 4039,
+      "sha256": "e310fb677c4927d7833def3a32e303c59713731d3b201e5e24eee8c8e09bfed1"
+    },
+    {
+      "name": "Horizon-geometry.png",
+      "bytes": 151863,
+      "sha256": "da341c9ff44930b95dd7e3db46993c915725a724038aef918237fa702e80ff80"
+    },
+    {
+      "name": "LICENSE-GROUNDSURF.txt",
+      "bytes": 1556,
+      "sha256": "afbea719bb39d03bfe379ef70e127657248b431086c70e0879240cf311681b81"
+    },
+    {
+      "name": "Named-horizon.png",
+      "bytes": 128723,
+      "sha256": "18be39e4bac8e221c003e73653ce0f465604f3bb68366cb9e2e0136c6347babb"
+    },
+    {
+      "name": "RELEASE-NOTES.txt",
+      "bytes": 640,
+      "sha256": "967b56ffe26700608afb24fbc4eaef27c0fa8f5cec34a877fddbd2c3ed136b6d"
+    },
+    {
+      "name": "Synthetic-project-continuity-completed.zip",
+      "bytes": 18691,
+      "sha256": "cde87b5a0fdf53ca13d968866096a696143bfd5a13400092b6abb603a940b2dd"
+    },
+    {
+      "name": "Synthetic-project-continuity.zip",
+      "bytes": 17792,
+      "sha256": "db6de2202fe17a5c43f900df0e82c96577c50985c7b8e2a3bae79228732e4ac9"
+    },
+    {
+      "name": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 8850,
+      "sha256": "9fe51c3c132adc409558e90b66ccfbbc5c509b0ee695baab026a98991e820fe0"
+    },
+    {
+      "name": "TIME-DEPTH-0.10.1.md",
+      "bytes": 3758,
+      "sha256": "fc5ec7ef6a00767f9359e8a7e9dfddddb959aa2830715f4e098fc62ffc48a032"
+    },
+    {
+      "name": "Time-depth.png",
+      "bytes": 126566,
+      "sha256": "2daefedafa94e9afa2023fad887db93ad06ba79b7181e8c0ed7eb3578188721b"
+    },
+    {
+      "name": "guide.html",
+      "bytes": 2817,
+      "sha256": "88c034076424873f58fc7d1e940732849ca6bf43e1a625e6213e9c5e0b831f4b"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+GroundSurf Studio 0.10.1 Public Trial
+Application build 0.10.1-trial.1
+
+Includes original borehole logs, manual and named horizon interpretation, geological sections, bounded 2D SEG-Y previews and constant-velocity time–depth conversion. Full numerical project persistence remains in development. Keep large seismic files and separately exported ensemble results with your project.
+
+Browser edition tested on Ubuntu 24.04 with Chromium and Firefox. The single HTML file works offline. Browser-supported scientific processing takes place on the device.
+
+Free use through 31 December 2027 inclusive under the attached Public Trial licence.

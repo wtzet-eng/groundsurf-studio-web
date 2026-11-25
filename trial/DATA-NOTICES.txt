@@ -1,0 +1,4 @@
+The bundled Stockholm example uses SGU Jordlagerföljder (CC0 1.0).
+Source: https://www.sgu.se/produkter-och-tjanster/geologiska-data/jordarter--geologiska-data/jordlagerfoljder/
+Terms: https://resource.sgu.se/dokument/produkter/jordlagerfoljder-beskrivning.pdf
+The downloadable continuity projects use synthetic demonstrations.
